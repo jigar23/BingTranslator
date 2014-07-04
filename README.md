@@ -21,11 +21,9 @@ Since the API is by Microsoft, it is bound to be written in C#.
 There is also a PHP and Java version of the API.
 
 However, I wanted to use the translator in C/C++ in my Linux system as a part of 
-my Speech to Speech Translation project.
-
+my Speech to Speech Translation project.<br>
 I was able to use the Bing translator using JNI in my C++ code and calling 
-the functions of the Java API.
-
+the functions of the Java API.<br>
 In my code, I have only covered the function to Translate text between 2 langauges.
 
 ##---------------------------------------------------------------------------------##
