@@ -52,7 +52,10 @@ https://code.google.com/p/microsoft-translator-java-api/downloads/list
 ##--------------------------------------------------------------------------------##
 
 Before using the code-> <br>
-Export the Java JVM libraries <br>
+-------------------------------------
+
+<b> Export the Java JVM libraries </b> <br>
+
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/jvm/default-java/jre/lib/amd64/:/usr/lib/jvm/default-java/jre/lib/amd64/server/;
 <br>
 Generally, this is the common path where the JRE libraries will be stored.
