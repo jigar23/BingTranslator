@@ -38,12 +38,12 @@ Store the Client ID and Client Secret.
 
 ##---------------------------------------------------------------------------------##
 
-Source Code:
-BingTranslator.h
-BingTranslator.cc --> contains all the necessary C++ functions. 
-example.cc --> Shows a demo example.
-folder com and jason --> The Java source code for Bing API
-TranslateExample.class and TranslateExample.java--> Java functions used by my C++ code
+Source Code: <br>
+<b>BingTranslator.h </b><br>
+BingTranslator.cc --> contains all the necessary C++ functions. <br>
+example.cc --> Shows a demo example. <br>
+folder com and jason --> The Java source code for Bing API <br>
+TranslateExample.class and TranslateExample.java--> Java functions used by my C++ code <br>
 
 I have included the JAVA APIs in my file. You can download them
 separately from
