@@ -40,10 +40,10 @@ Store the Client ID and Client Secret.
 
 Source Code: <br>
 <b>BingTranslator.h </b><br>
-BingTranslator.cc --> contains all the necessary C++ functions. <br>
-example.cc --> Shows a demo example. <br>
-folder com and jason --> The Java source code for Bing API <br>
-TranslateExample.class and TranslateExample.java--> Java functions used by my C++ code <br>
+<b>BingTranslator.cc </b> --> contains all the necessary C++ functions. <br>
+<b>example.cc </b> --> Shows a demo example. <br>
+folder <b>com</b> and <b>jason</b> --> The Java source code for Bing API <br>
+<b>TranslateExample.class</b> and <b>TranslateExample.java</b> --> Java functions used by my C++ code <br>
 
 I have included the JAVA APIs in my file. You can download them
 separately from
@@ -51,24 +51,23 @@ https://code.google.com/p/microsoft-translator-java-api/downloads/list
 
 ##--------------------------------------------------------------------------------##
 
-Before using the code->
-Export the Java JVM libraries
-
+Before using the code-> <br>
+Export the Java JVM libraries <br>
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/jvm/default-java/jre/lib/amd64/:/usr/lib/jvm/default-java/jre/lib/amd64/server/;
-
+<br>
 Generally, this is the common path where the JRE libraries will be stored.
-In case they are stored at a different location, do the appropriate changes.
+In case they are stored at a different location, do the appropriate changes. <br>
 
-You can add this line to the end of the ~/.bashrc file as well.
+You can add this line to the end of the ~/.bashrc file as well. <br>
 
-Add the client ID and the client secret in the demoExample.cc file
+Add the client ID and the client secret in the demoExample.cc file <br>
 
 Compiling the file
 ------------------
 
 g++ -g demoExample.cc BingTranslator.cc -I /usr/lib/jvm/default-java/include/ -I /usr/lib/jvm/default-java/include/linux/ -L /usr/lib/jvm/default-java/jre/lib/amd64/ -L /usr/lib/jvm/default-java/jre/lib/amd64/server/ -ljvm -o demoExample
 
-In place of example.cc, you can have your own C++ files. 
+In place of example.cc, you can have your own C++ files. <br>
 Include the file "BingTranslator.h" in your source code and follow the syntax used in demoExample.cc.
 
 Run the file
