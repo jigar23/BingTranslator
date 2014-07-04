@@ -6,9 +6,7 @@ Bing Translator in c++ using JNI
 Microsoft's Bing Translator is an API which can do a variety of functions:  <br>
 
 1. Translate text between 2 langauges.  <br>
-
 2. Detect the native language of given text.  <br>  
-
 3. Generating and playing a WAV of given text spoken in a chosen dialect  <br>
 
 
