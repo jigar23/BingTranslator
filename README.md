@@ -18,7 +18,6 @@ For further charges, refer
 https://datamarket.azure.com/dataset/1899a118-d202-492c-aa16-ba21c33c06cb
 
 Since the API is by Microsoft, it is bound to be written in C#.
-
 There is also a PHP and Java version of the API.
 
 However, I wanted to use the translator in C/C++ in my Linux system as a part of 
@@ -33,9 +32,8 @@ In my code, I have only covered the function to Translate text between 2 langaug
 Requirements for using the code.
 
 1. Java 1.5 or greater
-
 2. A Windows Azure Marketplace Client ID and Client Secret
-3. 
+
 Follow first 2 steps of http://msdn.microsoft.com/en-us/library/hh454950.aspx
 
 Store the Client ID and Client Secret.
