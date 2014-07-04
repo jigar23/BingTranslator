@@ -3,23 +3,29 @@ BingTranslator
 
 Bing Translator in c++ using JNI
 
+Microsoft's Bing Translator is an API which can do a variety of functions:  <br>
 
-Microsoft's Bing Translator is an API which can do a variety of functions:
-1. Translate text between 2 langauges.
-2. Detect the native language of given text.
-3. Generating and playing a WAV of given text spoken in a chosen dialect
+1. Translate text between 2 langauges.  <br>
+
+2. Detect the native language of given text.  <br>  
+
+3. Generating and playing a WAV of given text spoken in a chosen dialect  <br>
+
 
 Since the Google Translate API is no more free, it makes sense in using the
 Bing Translate API.
+
 The Bing Tranlate API is free for only 2,000,000 Characters/month.
 For further charges, refer 
 https://datamarket.azure.com/dataset/1899a118-d202-492c-aa16-ba21c33c06cb
 
 Since the API is by Microsoft, it is bound to be written in C#.
+
 There is also a PHP and Java version of the API.
 
 However, I wanted to use the translator in C/C++ in my Linux system as a part of 
 my Speech to Speech Translation project.
+
 I was able to use the Bing translator using JNI in my C++ code and calling 
 the functions of the Java API.
 
@@ -27,9 +33,13 @@ In my code, I have only covered the function to Translate text between 2 langaug
 
 ##---------------------------------------------------------------------------------##
 Requirements for using the code.
+
 1. Java 1.5 or greater
+
 2. A Windows Azure Marketplace Client ID and Client Secret
+3. 
 Follow first 2 steps of http://msdn.microsoft.com/en-us/library/hh454950.aspx
+
 Store the Client ID and Client Secret.
 
 ##---------------------------------------------------------------------------------##
