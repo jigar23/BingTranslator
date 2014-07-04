@@ -26,7 +26,7 @@ I was able to use the Bing translator using JNI in my C++ code and calling
 the functions of the Java API.<br>
 In my code, I have only covered the function to Translate text between 2 langauges.
 
-##---------------------------------------------------------------------------------##
+##--------------------------------------------------##
 Requirements for using the code.
 --------------------------------
 
@@ -37,9 +37,9 @@ Follow first 2 steps of http://msdn.microsoft.com/en-us/library/hh454950.aspx
 
 Store the Client ID and Client Secret.
 
-##---------------------------------------------------------------------------------##
+##-----------------------------------------------------##
 
-Source Code: 
+Source Code:
 ----------------------------
 <b>BingTranslator.h </b><br>
 <b>BingTranslator.cc </b> --> contains all the necessary C++ functions. <br>
@@ -51,7 +51,7 @@ I have included the JAVA APIs in my file. You can download them
 separately from
 https://code.google.com/p/microsoft-translator-java-api/downloads/list
 
-##--------------------------------------------------------------------------------##
+##----------------------------------------------------##
 
 Before using the code-> <br>
 -------------------------------------
@@ -80,8 +80,7 @@ Run the file
 ./demoExample
 
 
-##--------------------------------------------------------------------------------##
-
+##------------------------------------------------------##
 
 
 
