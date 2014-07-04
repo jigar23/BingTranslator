@@ -28,6 +28,7 @@ In my code, I have only covered the function to Translate text between 2 langaug
 
 ##---------------------------------------------------------------------------------##
 Requirements for using the code.
+--------------------------------
 
 1. Java 1.5 or greater
 2. A Windows Azure Marketplace Client ID and Client Secret
@@ -38,7 +39,8 @@ Store the Client ID and Client Secret.
 
 ##---------------------------------------------------------------------------------##
 
-Source Code: <br>
+Source Code: 
+----------------------------
 <b>BingTranslator.h </b><br>
 <b>BingTranslator.cc </b> --> contains all the necessary C++ functions. <br>
 <b>example.cc </b> --> Shows a demo example. <br>
