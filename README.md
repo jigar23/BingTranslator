@@ -60,8 +60,10 @@ Before using the code-> <br>
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/jvm/default-java/jre/lib/amd64/:/usr/lib/jvm/default-java/jre/lib/amd64/server/;
 <br>
-Generally, this is the common path where the JRE libraries will be stored.
+Generally, this is the common path where the JRE libraries will be stored if you have multiple JRE versions.
 In case they are stored at a different location, do the appropriate changes. <br>
+In general cases, it will be stored in /usr/lib/jvm/java-version/.... <br>
+e.g. /usr/lib/jvm/java-1.5.0-gcj-4.6/... <br>
 
 You can add this line to the end of the ~/.bashrc file as well. <br>
 
