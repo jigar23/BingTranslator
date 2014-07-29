@@ -63,11 +63,15 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/jvm/default-java/jre/lib/amd64/
 Generally, this is the common path where the JRE libraries will be stored if you have multiple JRE versions.
 In case they are stored at a different location, do the appropriate changes. <br>
 In general cases, it will be stored in /usr/lib/jvm/java-version/.... <br>
-e.g. /usr/lib/jvm/java-1.5.0-gcj-4.6/... <br>
+e.g. /usr/lib/jvm/java-1.7.0-openjdk-amd64/... <br>
+<br>
+If the above path in not present in your directory, you may need to install Java-open JDK using the following command:<br>
+sudo apt-get install openjdk-7-jdk
+
 
 You can add this line to the end of the ~/.bashrc file as well. <br>
 
-Add the client ID and the client secret in the demoExample.cc file <br>
+<b>Add the client ID and the client secret in the demoExample.cc file </b> <br>
 
 Compiling the file
 ------------------
