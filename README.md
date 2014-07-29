@@ -71,7 +71,7 @@ sudo apt-get install openjdk-7-jdk
 
 You can add this line to the end of the ~/.bashrc file as well. <br>
 
-<b>Add the client ID and the client secret in the demoExample.cc file </b> <br>
+Add the <b>client ID</b> and the <b>client secret</b> in the demoExample.cc file before compiling the file <br>
 
 Compiling the file
 ------------------
